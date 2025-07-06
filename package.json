@@ -1,10 +1,11 @@
 {
     "name": "playwright-hierarchy-reporter",
-    "version": "1.0.0",
+    "version": "1.1.1",
     "description": "A simple hierarchical console reporter for Playwright tests, showing project, test file, and nested test suites in a clean tree format.",
     "type": "module",
-    "main": "dist/index.js",
-    "types": "dist/index.d.ts",
+    "main": "./code/index.js",
+    "module": "./code/index.js",
+    "types": "./types/index.d.ts",
     "scripts": {
         "test": "npx playwright test --project chromium",
         "test:snapshot": "npx tsx tests/snapshot/snapshot.test.ts",
