@@ -1,6 +1,6 @@
 # playwright-hierarchy-reporter
 
-A simple custom Playwright reporter that prints test results hierarchically in the console in general similar to Vitest [verbose reporter](https://vitest.dev/guide/reporters.html#verbose-reporter).
+A simple [custom](https://playwright.dev/docs/test-reporters#custom-reporters) Playwright reporter that prints test results hierarchically in the console in general similar to Vitest [verbose reporter](https://vitest.dev/guide/reporters.html#verbose-reporter).
 
 It groups tests by project and test file on the same line, then indents nested suites and test cases, with pass/fail symbols.
 
@@ -57,6 +57,14 @@ Develop with TDD running tests with `npm run test` and visually checking the tes
 
 As you finish development, run a snapshot test with `npm run test:snapshot`. It will run the actual reporter and compare its output with the predefined snapshot residing in `./tests/expected-output.snapshot.txt`.
 
+## Maintenance
+
+The package is written in TypeScript. The project is production-ready and actively maintained.
+
+### Contributions
+
+Filling issues and asking questions in Discussions is welcomed.
+
 ## License
 
-MIT
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
