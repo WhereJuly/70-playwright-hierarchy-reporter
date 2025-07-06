@@ -3,12 +3,20 @@
     "version": "1.0.0",
     "description": "A simple hierarchical console reporter for Playwright tests, showing project, test file, and nested test suites in a clean tree format.",
     "type": "module",
-    "main": "index.js",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
     "scripts": {
         "test": "npx playwright test --project chromium",
-        "test:snapshot": "npx tsx tests/snapshot/snapshot.test.ts"
+        "test:snapshot": "npx tsx tests/snapshot/snapshot.test.ts",
+        "package:build": "tsx .delivery/scripts/build.ts",
+        "lint": "npx eslint ./src && npx eslint ./tests",
+        "package:de-alias": "npx tsc-alias -p ./.delivery/configuration/tsconfig.json --verbose",
+        "package:bundle:copy": "cpy ./package.json ./LICENSE ./readme.md ./.delivery/.builds/dist",
+        "package:pack": "cd ./.delivery/.builds/dist && npm pack",
+        "package:test:usage": "cd .usage && npm run test:usage",
+        "package:lint:readme": "npx markdown-link-check --progress --quiet ./readme.md",
+        "package:publish": "npm publish ./.delivery/.builds/dist"
     },
-    "types": "index.d.ts",
     "keywords": [
         "playwright",
         "reporter",
@@ -39,7 +47,10 @@
         "@types/node": "^24.0.10",
         "@typescript-eslint/eslint-plugin": "^8.35.1",
         "@typescript-eslint/parser": "^8.35.1",
+        "cpy-cli": "^5.0.0",
         "execa": "^9.6.0",
+        "rimraf": "^6.0.1",
+        "tsc-alias": "^1.8.16",
         "tsx": "^4.20.3",
         "typescript": "^5.8.3",
         "typescript-eslint": "^8.35.1"
