@@ -36,10 +36,8 @@ npm install --save-dev playwright-hierarchy-reporter
 In your Playwright [config file](https://playwright.dev/docs/test-configuration) (e.g. `playwright.config.ts`):
 
 ```typescript
-import HierarchyReporter from 'playwright-hierarchy-reporter';
-
 export default defineConfig({
- reporter: [[new HierarchyReporter()]]
+ reporter: [['playwright-hierarchy-reporter']]
 });
 ```
 
