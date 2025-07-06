@@ -6,7 +6,7 @@
     "main": "index.js",
     "scripts": {
         "test": "npx playwright test --project chromium",
-        "test:snapshot": "npx tsx tests/snapshot.test.ts"
+        "test:snapshot": "npx tsx tests/snapshot/snapshot.test.ts"
     },
     "types": "index.d.ts",
     "keywords": [

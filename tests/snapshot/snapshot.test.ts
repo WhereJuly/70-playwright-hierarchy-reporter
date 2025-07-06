@@ -31,7 +31,7 @@ function setup() {
       export default defineConfig({
         testDir: './tests',
         outputDir: './tests/.outputs',
-        reporter: [['../../src/index.ts']],
+        reporter: [['../../../src/index.ts']],
       });
     `
     );
