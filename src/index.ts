@@ -1,2 +1,5 @@
+'use strict';
 
-export { default as HierarchyReporter } from './HierarchyReporter.js';
+import HierarchyReporter from './HierarchyReporter.js';
+
+export default HierarchyReporter;

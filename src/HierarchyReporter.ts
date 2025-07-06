@@ -47,7 +47,8 @@ export default class HierarchyReporter implements Reporter {
                 passed: result.status === 'passed' ? '✓' : undefined,
                 failed: result.status === 'failed' ? '✗' : '?'
             };
-            const statusSymbol = isLeaf ? symbols.passed ?? symbols.failed + ' ' : '';
+            
+            const statusSymbol = isLeaf ? (`${symbols.passed ?? symbols.failed} `)  : '';
             console.log(`${indent(i + 1)}${statusSymbol}${nestedPath[i]}`);
         }
 
