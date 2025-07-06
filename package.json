@@ -1,6 +1,6 @@
 {
     "name": "playwright-hierarchy-reporter",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "description": "A simple hierarchical console reporter for Playwright tests, showing project, test file, and nested test suites in a clean tree format.",
     "type": "module",
     "main": "./code/index.js",
