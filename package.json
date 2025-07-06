@@ -5,7 +5,8 @@
     "type": "module",
     "main": "index.js",
     "scripts": {
-        "test": "npx playwright test"
+        "test": "npx playwright test --project chromium",
+        "test:snapshot": "npx tsx tests/snapshot.test.ts"
     },
     "types": "index.d.ts",
     "keywords": [
@@ -38,6 +39,8 @@
         "@types/node": "^24.0.10",
         "@typescript-eslint/eslint-plugin": "^8.35.1",
         "@typescript-eslint/parser": "^8.35.1",
+        "execa": "^9.6.0",
+        "tsx": "^4.20.3",
         "typescript": "^5.8.3",
         "typescript-eslint": "^8.35.1"
     }

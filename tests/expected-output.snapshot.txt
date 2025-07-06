@@ -1,0 +1,8 @@
+📋 Test Run Starting...
+
+[] example.spec.ts
+  Example Suite
+    [PASS] Example 1
+    [PASS] Example 2
+
+🧪 Test run finished with status: PASSED

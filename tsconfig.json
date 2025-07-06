@@ -25,6 +25,6 @@
         "skipLibCheck": true
     },
 
-    "include": ["./src", "eslint.config.mjs", "playwright.config.ts", ".delivery/scripts", "./tests/e2e/**/*.ts", "./tests/**/*.*"],
+    "include": ["./src", "eslint.config.mjs", "playwright.config.ts", ".delivery/scripts", "./tests/e2e/**/*.ts", "./tests/**/*.*", ".temp/reporter-validation.spec.ts"],
     "exclude": ["node_modules", "./.usage/tests/**/*.ts"]
 }
