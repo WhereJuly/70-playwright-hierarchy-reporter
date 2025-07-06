@@ -55,7 +55,7 @@ npm install
 
 Develop with TDD running tests with `npm run test` and visually checking the test output. They will test the reporter source code in `./src` folder. As with normal testing, assess the console output correctness.
 
-As you finish development, run a snapshot test with `npm run test:snapshot`. It will run the actual reporter and compare its output with the predefined snapshot residing in `./tests/expected-output.snapshot.txt`.
+As you finish development, run a snapshot test with `npm run test:snapshot`. It will run the actual reporter and compare its output with the predefined snapshot residing in `./tests/snapshot/expected-output.snapshot.txt`.
 
 ## Maintenance
 
