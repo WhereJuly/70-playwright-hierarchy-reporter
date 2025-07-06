@@ -10,7 +10,6 @@
         "test:snapshot": "npx tsx tests/snapshot/snapshot.test.ts",
         "package:build": "tsx .delivery/scripts/build.ts",
         "lint": "npx eslint ./src && npx eslint ./tests",
-        "package:de-alias": "npx tsc-alias -p ./.delivery/configuration/tsconfig.json --verbose",
         "package:bundle:copy": "cpy ./package.json ./LICENSE ./readme.md ./.delivery/.builds/dist",
         "package:pack": "cd ./.delivery/.builds/dist && npm pack",
         "package:test:usage": "cd .usage && npm run test:usage",
@@ -50,7 +49,6 @@
         "cpy-cli": "^5.0.0",
         "execa": "^9.6.0",
         "rimraf": "^6.0.1",
-        "tsc-alias": "^1.8.16",
         "tsx": "^4.20.3",
         "typescript": "^5.8.3",
         "typescript-eslint": "^8.35.1"

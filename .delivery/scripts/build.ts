@@ -8,7 +8,6 @@ const commands: string[] = [
     'npm run lint',
     'rimraf ./.delivery/.builds/dist',
     'tsc -p ./.delivery/configuration/tsconfig.json',
-    'npm run package:de-alias',
     'npm run package:bundle:copy',
     'npm run package:pack'
 ];
