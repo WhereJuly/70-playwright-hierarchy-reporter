@@ -1,0 +1,41 @@
+{
+    "name": "playwright-hierarchy-reporter",
+    "version": "1.0.0",
+    "description": "A simple hierarchical console reporter for Playwright tests, showing project, test file, and nested test suites in a clean tree format.",
+    "type": "module",
+    "main": "index.js",
+    "types": "index.d.ts",
+    "keywords": [
+        "playwright",
+        "reporter",
+        "test",
+        "hierarchy",
+        "verbose",
+        "console",
+        "cli"
+    ],
+    "author": {
+        "name": "Valentine Shi",
+        "email": "valentineshi.dev@gmail.com",
+        "url": "https://valentineshi.dev"
+    },
+    "license": "MIT",
+    "homepage": "https://github.com/WhereJuly/70-playwright-hierarchy-reporter#readme",
+    "issues": "https://github.com/WhereJuly/70-playwright-hierarchy-reporter/issues",
+    "engines": {
+        "node": ">=20"
+    },
+    "peerDependencies": {
+        "@playwright/test": "^1.53.2"
+    },
+    "devDependencies": {
+        "@eslint/js": "^9.30.1",
+        "@tsconfig/node20": "^20.1.6",
+        "@types/node": "^24.0.10",
+        "@typescript-eslint/eslint-plugin": "^8.35.1",
+        "@typescript-eslint/parser": "^8.35.1",
+        "typescript": "^5.8.3",
+        "typescript-eslint": "^8.35.1",
+        "@playwright/test": "^1.53.2"
+    }
+}
