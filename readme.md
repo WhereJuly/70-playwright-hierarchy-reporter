@@ -43,10 +43,6 @@ export default defineConfig({
 });
 ```
 
-Here’s a clear, concise **Development** section for your README to help future contributors get started quickly:
-
----
-
 ## Development
 
 Install dependencies
