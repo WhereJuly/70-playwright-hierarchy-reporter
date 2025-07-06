@@ -1,6 +1,6 @@
 # playwright-hierarchy-reporter
 
-A simple custom Playwright reporter that prints test results hierarchically in the console similar to Vitest `verbose` reporter.
+A simple custom Playwright reporter that prints test results hierarchically in the console in general similar to Vitest [verbose reporter](https://vitest.dev/guide/reporters.html#verbose-reporter).
 
 It groups tests by project and test file on the same line, then indents nested suites and test cases, with pass/fail symbols.
 
