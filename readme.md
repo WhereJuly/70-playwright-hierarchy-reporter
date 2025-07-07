@@ -1,6 +1,6 @@
 # playwright-hierarchy-reporter
 
-A simple [custom](https://playwright.dev/docs/test-reporters#custom-reporters) Playwright reporter that prints test results hierarchically in the console in general similar to Vitest [verbose reporter](https://vitest.dev/guide/reporters.html#verbose-reporter).
+A simple [custom](https://playwright.dev/docs/test-reporters#custom-reporters) Playwright reporter that prints test results hierarchically in the console, generally, similar to Vitest [verbose reporter](https://vitest.dev/guide/reporters.html#verbose-reporter).
 
 It groups tests by project and test file on the same line, then indents nested suites and test cases, with pass/fail symbols.
 
@@ -17,6 +17,14 @@ It groups tests by project and test file on the same line, then indents nested s
 
 🧪 Test run finished with status: PASSED
 ```
+
+**Package Status**
+
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=WhereJuly_70-playwright-hierarchy-reporter&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=WhereJuly_70-playwright-hierarchy-reporter)
+[![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=WhereJuly_70-playwright-hierarchy-reporter&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=WhereJuly_70-playwright-hierarchy-reporter)
+
+![npm downloads](https://img.shields.io/npm/dm/playwright-hierarchy-reporter.svg?color=green)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?color=green)](https://opensource.org/licenses/MIT)
 
 ## Features
 
