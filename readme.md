@@ -22,7 +22,6 @@ It groups tests by project and test file on the same line, then indents nested s
 
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=WhereJuly_70-playwright-hierarchy-reporter&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=WhereJuly_70-playwright-hierarchy-reporter)
 [![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=WhereJuly_70-playwright-hierarchy-reporter&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=WhereJuly_70-playwright-hierarchy-reporter)
-
 ![npm downloads](https://img.shields.io/npm/dm/playwright-hierarchy-reporter.svg?color=green)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?color=green)](https://opensource.org/licenses/MIT)
 
