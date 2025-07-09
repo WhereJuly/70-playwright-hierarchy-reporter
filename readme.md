@@ -56,6 +56,8 @@ Install dependencies
 npm install
 ```
 
+For details see [Requirements](./.a&cd/requirements.md).
+
 ### Running tests
 
 Develop with TDD running tests with `npm run test` and visually checking the test output. They will test the reporter source code in `./src` folder. As with normal testing, assess the console output correctness.
