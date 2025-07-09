@@ -27,6 +27,8 @@ It groups tests by project and test file on the same line, then indents nested s
 
 ## Features
 
+> [NB]: Playwright executes tests in [parallel by default](https://playwright.dev/docs/test-parallel), which can scatter tests from the same file across the report. To preserve **hierarchical order** in the output (so tests appear sequentially as written), you must [disable parallelism](https://playwright.dev/docs/test-parallel#disable-parallelism) by setting number of workers to 1.
+
 - Shows `[project] test-file` as a single header line
 - Nested describes and tests indented beneath
 - Pass (`✓`), fail (`✗`), and other statuses shown for each test
